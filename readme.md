@@ -1,5 +1,17 @@
 # Rails 4 Starter App
 
+## Using the Starter App
+
+Copy all of the files into a new directory (unless you want the commit history of this app, in that case, copy over everything including the .git directory). Once you have copied over the files, install the gems by running:
+
+    bundle install
+
+Then, rename the application using [rails-rename](https://github.com/negativetwelve/rails-rename) by running the command:
+
+    rails g rename NewAppName
+
+where `NewAppName` is the name of your custom application.
+
 ## Setup
 
 First, make a file for your environment variables:

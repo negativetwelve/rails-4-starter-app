@@ -27,6 +27,8 @@ group :development, :test do
   gem 'factory_girl', '~> 4.4.0'
   gem 'rails_best_practices', '~> 1.15.1'
   gem 'rspec-rails', '~> 2.14.1'
+  # Rename Rails 4 app
+  gem 'rails-rename', git: 'git://github.com/negativetwelve/rails-rename.git'
 end
 
 group :production do

@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/negativetwelve/rails-rename.git
+  revision: 0ee8d2374594750f5a2a852f8e959a0fa383d0ce
+  specs:
+    rails-rename (1.0.0)
+      rails (>= 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -196,6 +203,7 @@ DEPENDENCIES
   jquery-rails (~> 2.2.1)
   pg (= 0.17.1)
   rails (= 4.0.0)
+  rails-rename!
   rails_12factor
   rails_best_practices (~> 1.15.1)
   rspec-rails (~> 2.14.1)
