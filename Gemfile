@@ -28,7 +28,7 @@ group :development, :test do
   gem 'rails_best_practices', '~> 1.15.1'
   gem 'rspec-rails', '~> 2.14.1'
   # Rename Rails 4 app
-  gem 'rails-rename', git: 'git://github.com/negativetwelve/rails-rename.git'
+  gem "rails-rename", "~> 1.0.0"
 end
 
 group :production do
