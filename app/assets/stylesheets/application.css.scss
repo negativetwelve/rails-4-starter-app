@@ -11,12 +11,14 @@
  *= require_self
  */
 
+@import "mixins";
+
 @import "colors";
 @import "config";
 
 @import "bootstrap";
-
 @import "bootstrap_overrides";
+
 @import "main";
 
 @import "partials/*";
