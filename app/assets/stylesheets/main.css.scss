@@ -105,6 +105,20 @@ h1, h2, h3, h4, h5 {
         padding-top: 50px;
         display: inline;
       }
+
+      .image-container {
+        @include breakpoint($mobile) {
+          text-align: center;
+        }
+      }
+
+      .image-top {
+        padding-bottom: 50px;
+      }
+
+      .image-bottom {
+        padding-top: 50px;
+      }
     }
   }
 
